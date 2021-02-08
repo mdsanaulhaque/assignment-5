@@ -51,6 +51,7 @@ const displayMealsDetails = meal =>{
 <p>${meal.strIngredient18}</p>
 <p>${meal.strIngredient19}</p>
 <p>${meal.strIngredient20}</p>
+<img class="img" src = "${meal.strMealThumb}">
 `;
     console.log(meal);
 }
